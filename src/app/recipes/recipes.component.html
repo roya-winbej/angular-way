@@ -1,6 +1,6 @@
 <div class="row" style="margin-top: 30px;">
   <div class="col-md-5">
-    <app-recipe-list (selectedRecipeEvent)="currentRecipe = $event;"></app-recipe-list>
+    <app-recipe-list></app-recipe-list>
   </div>
   <div class="col-md-7">
     <app-recipe-detail *ngIf="currentRecipe; else noRecipeTemplate"
